@@ -308,6 +308,18 @@ static void *const CYLTabBarContext = (void*)&CYLTabBarContext;
             view.layer.transform = CATransform3DMakeRotation(2 * M_PI, 0, 1, 0);
         } completion:nil];
     });
+    
+    CABasicAnimation *rotateAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.y"];
+    
+    // 设定动画选项
+    rotateAnimation.duration = 1.2; // 持续时间
+    rotateAnimation.repeatCount = 1; // 重复次数
+    
+    // 设定旋转角度
+    rotateAnimation.fromValue = [NSNumber numberWithFloat:0.0]; // 起始角度
+    rotateAnimation.toValue = [NSNumber numberWithFloat:2 * M_PI]; // 终止角度
+    
+    [view.layer addAnimation:rotateAnimation forKey:@"rotateAnimation"];
 }
 
 - (void)addRotateAnimationOnPlusButton {

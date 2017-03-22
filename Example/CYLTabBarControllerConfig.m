@@ -138,33 +138,9 @@
     [tabBar setTitleTextAttributes:normalAttrs forState:UIControlStateNormal];
     [tabBar setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
     
-    // Set the dark color to selected tab (the dimmed background)
-    // TabBarItem选中后的背景颜色
-    // [self customizeTabBarSelectionIndicatorImage];
-    
-    // update TabBar when TabBarItem width did update
-    // If your app need support UIDeviceOrientationLandscapeLeft or UIDeviceOrientationLandscapeRight，
-    // remove the comment '//'
-    // 如果你的App需要支持横竖屏，请使用该方法移除注释 '//'
-    // [self updateTabBarCustomizationWhenTabBarItemWidthDidUpdate];
-    
-    // set the bar shadow image
-    // This shadow image attribute is ignored if the tab bar does not also have a custom background image.So at least set somthing.
-//    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
     [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tab_bar"]];
     [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
     [[UITabBar appearance] setShadowImage:[UIImage imageNamed:@"tapbar_top_line"]];
-    
-//
-    
-    // set the bar background image
-    // 设置背景图片
-    // UITabBar *tabBarAppearance = [UITabBar appearance];
-    // [tabBarAppearance setBackgroundImage:[UIImage imageNamed:@"tabbar_background"]];
-    
-    // remove the bar system shadow image
-    // 去除 TabBar 自带的顶部阴影
-    // [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
 }
 
 - (void)updateTabBarCustomizationWhenTabBarItemWidthDidUpdate {
