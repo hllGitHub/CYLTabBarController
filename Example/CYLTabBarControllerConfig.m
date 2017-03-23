@@ -138,9 +138,19 @@
     [tabBar setTitleTextAttributes:normalAttrs forState:UIControlStateNormal];
     [tabBar setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
     
-    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tab_bar"]];
+//    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tab_bar"]];
+    
+//    CGFloat screen_width = [UIScreen mainScreen].bounds.size.width;
+    
+//    UIImageView *backImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"tab_bar"]];
+////    backImageView.contentMode = UIViewContentModeScaleAspectFit;
+//    backImageView.frame = CGRectMake(0, 0, screen_width, 49);
+//    [tabBarController.tabBar insertSubview:backImageView atIndex:0];
+//    backImageView.layer.zPosition = 65.f / 2;
+    
     [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
-    [[UITabBar appearance] setShadowImage:[UIImage imageNamed:@"tapbar_top_line"]];
+//    [[UITabBar appearance] setShadowImage:[UIImage imageNamed:@"tapbar_top_line"]];
+    [[UITabBar appearance] setShadowImage:[[UIImage alloc]init]];
 }
 
 - (void)updateTabBarCustomizationWhenTabBarItemWidthDidUpdate {

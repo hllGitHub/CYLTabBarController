@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0015DD2D1E8218290099E58A /* tab_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0015DD2C1E8218290099E58A /* tab_bar@2x.png */; };
 		9A1559C51CB6D4C700CAB1AF /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559C41CB6D4C700CAB1AF /* CYLTabBarControllerConfig.m */; };
 		9A1559C81CB6D4D300CAB1AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559C61CB6D4D300CAB1AF /* AppDelegate.m */; };
 		9A1559DB1CB6D56500CAB1AF /* CYLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559CC1CB6D56500CAB1AF /* CYLHomeViewController.m */; };
@@ -30,7 +29,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0015DD2C1E8218290099E58A /* tab_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_bar@2x.png"; sourceTree = "<group>"; };
 		2161868DA6CE4E9913ED6FE0 /* Pods-CYLTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYLTabBarController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYLTabBarController/Pods-CYLTabBarController.debug.xcconfig"; sourceTree = "<group>"; };
 		2924B8A72AC9324C472C315D /* libPods-CYLTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYLTabBarController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		315F85F455B4F851FD04F23D /* Pods-CYLTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYLTabBarController.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYLTabBarController/Pods-CYLTabBarController.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,7 +151,6 @@
 		9AE9426B1BDC91B800354519 = {
 			isa = PBXGroup;
 			children = (
-				0015DD2C1E8218290099E58A /* tab_bar@2x.png */,
 				9AE942F21BDC937F00354519 /* CYLTabBarController */,
 				9AE942C81BDC933E00354519 /* Example */,
 				9AE942901BDC91B900354519 /* CYLTabBarControllerTests */,
@@ -303,7 +300,6 @@
 			files = (
 				9AE942EF1BDC933E00354519 /* Images.xcassets in Resources */,
 				9AE942E71BDC933E00354519 /* LaunchScreen.xib in Resources */,
-				0015DD2D1E8218290099E58A /* tab_bar@2x.png in Resources */,
 				9AE942E81BDC933E00354519 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
